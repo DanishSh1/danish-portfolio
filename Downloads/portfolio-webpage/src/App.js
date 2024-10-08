@@ -11,7 +11,6 @@ function App() {
   const skills = useRef(null);
   const contacts = useRef(null);
   const projects = useRef(null);
-  const[num, setNum] = useState(0);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -21,7 +20,6 @@ function App() {
   }
   return (
     <div className="App">
-      {num}
       <ScrollToTop />
       <div className="navi-bar">
           <ul>
