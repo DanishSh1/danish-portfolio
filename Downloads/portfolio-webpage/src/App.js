@@ -1,7 +1,7 @@
 import './App.css';
 import { ReactTyped } from 'react-typed';
 import ImgCard from './ImgCard';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import ScrollToTop from './components/ScrollToTop';
 import InfoCard from './InfoCard';
 import Project from './Project';
@@ -11,6 +11,7 @@ function App() {
   const skills = useRef(null);
   const contacts = useRef(null);
   const projects = useRef(null);
+  const[num, setNum] = useState(0);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -20,6 +21,7 @@ function App() {
   }
   return (
     <div className="App">
+      {num}
       <ScrollToTop />
       <div className="navi-bar">
           <ul>
@@ -77,7 +79,7 @@ function App() {
         ● Engineered a robust software architecture using the façade design pattern and implemented Java Swing, resulting in a 25% enhancement in user interface responsiveness and overall system performance.<br/>
         ● Encompassed every aspect of engineering industry-grade software, from interpreting given requirements, to UML modelling, to building using Java/Java Swing, and automated testing using JUnit, which tested 40+ usecases and key components of project.
         </Project>
-        <Project src="https://media.licdn.com/dms/image/v2/C560BAQHZ8CJSLA_a6w/company-logo_200_200/company-logo_200_200/0/1650468134848/primco_limited_logo?e=2147483647&v=beta&t=lAS2AAl4kGloas190GOLFSjXFkU6u70lAdyM3cdT-Ho" header="Primco SQL Customer & Product Report">
+        <Project src="https://media.licdn.com/dms/image/v2/C560BAQHZ8CJSLA_a6w/company-logo_200_200/company-logo_200_200/0/1650468134848/primco_limited_logo?e=2147483647&v=beta&t=lAS2AAl4kGloas190GOLFSjXFkU6u70lAdyM3cdT-Ho" header="Primco Comprehensive Customer & Product Database Queries">
         ● Utilised Primco’s consumer database to formulate custom reports displaying customer purchases, order id’s, and date of processed orders.<br/>
         ● Produced reports based on codified fields and conditions found in 20+ data tables, eg. product dates, customer credentials, etc.<br/>
         ● Developed a custom SQL query to compile numerous data tables and records based on a database consisting of more than 350+ Primco customers and relevant orders.<br/>
