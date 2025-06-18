@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.App-link {
+  color: #61dafb;
+}
+
+.App{
+  animation: fade-down 1s;
+}
+
+.animation-typing{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px, teal;
+  border-radius: 20px;
+  border-color: aqua;
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+
+.App-link{
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.personal-img{
+  text-align: center;
+}
+
+img{
+  border: 5px solid #322f2f;
+  border-image: linear-gradient(#5e41ae, #5c5a60) 30
+}
+
+html{
+  background-color: rgb(106, 106, 106);
+}
+
+p{
+  margin: 25px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.5);
+  margin: 55px;
+  text-align: center;
+  display: inline-block;
+}
+
+.imgCard{
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.5);
+  margin: 78px;
+  text-align: center;
+  display: inline-block;
+}
+
+.card-type-grey{
+  background-color:#564d6c;
+  color: #fff
+}
+
+.animation-typing{
+  color: #f3efef
+}
+
+@keyframes fade-down{
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.link{
+  text-decoration: none;
+  display: inline;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-size:medium;
+  cursor: pointer;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-btn-position{
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.top-btn-style{
+  height:60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.link-img, .git-img, .resume-img{
+  height: 100px;
+  border: 0px;
+  margin: 25px;
+}
