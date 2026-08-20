@@ -39,7 +39,7 @@ function App() {
       </div>
       <div ref={skills} className="skill-section">
         <InfoCard type="grey">
-          I am a Computer Science student entering my third year at the University of Calgary, <b>I've interned 
+          I am a Computer Science student in my final year at the University of Calgary, <b>I've interned 
           at Primco Limited, specifically their Data Science department.</b> In that role I was able to work on several
           projects and assignments, the tenants of which being <b>relational databases, and creating MySQL queries
           to help compile and analyze the data from Primco's customers and products into meaningful reports and insights</b>.
