@@ -35,7 +35,7 @@ function App() {
        ]} typeSpeed={40} backSpeed={50} loop />
       </div>
       <div className="personal-img">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGSH6vp_lcXcQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697675879315?e=1788998400&v=beta&t=VZB9Sg2ZeNjiigNNOPKWOKog6hoR4zxpLaAhm13Ms04s" height="375px" width="375px" />
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGSH6vp_lcXcQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697675879315?e=1788998400&v=beta&t=VZB9Sg2ZeNjiigNNOPKWOKog6hoR4zxpLaAhm13Ms04" height="375px" width="375px" />
       </div>
       <div ref={skills} className="skill-section">
         <InfoCard type="grey">
